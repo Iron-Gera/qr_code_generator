@@ -1,1 +1,3 @@
-import qrcode\nimg = qrcode.make('Some data here')\nimg.save('some_file.png')
+import qrcode
+img = qrcode.make('Some data here')
+img.save('some_file.png')
